@@ -1,10 +1,11 @@
 import { defineVitestConfig } from '@nuxt/test-utils/config'
 
 export default defineVitestConfig({
+  root: './src',
   test: {
     environment: 'happy-dom',
     include: [
-      'utils/**/*.spec.ts',
+      '**/*.spec.ts',
     ],
     restoreMocks: true,
   },

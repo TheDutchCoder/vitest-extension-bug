@@ -2,9 +2,10 @@
   "extends": "./.nuxt/tsconfig.json",
   "compilerOptions": {
     "resolveJsonModule": true,
-    // "types": [
-    //   "./src/types/vitest.d.ts",
-    //   "segment-analytics",
-    // ],
+    "types": [
+      "./declarations.d.ts",
+      //   "./src/types/vitest.d.ts",
+      //   "segment-analytics",
+    ],
   },
 }
